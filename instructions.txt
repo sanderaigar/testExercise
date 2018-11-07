@@ -1,0 +1,20 @@
+PHP testülesanne:
+Testülesanne Ridango PHP nooremarendaja ametikohale kandideerimiseks
+ 
+* Loo lihtne Laraveli aplikatsioon.
+* Kood pane üles githubi ja saada hiljem meile link lahendusega.
+ 
+* Loo Laraveli resurss controller töötajatele (Employees) (index, create, store, show, edit, update, destory) ja vaated neile.
+* Töötajate create, edit vaates kasutada lihtsat veebivormi (kujundus pole oluline) väljadega:
+    * Nimi 
+    * Isikukood
+    * Sünniaasta ja kuupäev (formaat: mm/dd/yyyy)
+ 
+* Vormi salvestamisel ja muutmisel kontrollida (valideerida), et nimi oleks täidetud, isikukood on 11 karakterit pikk ja koosneks numbritest ainult.
+* Valideerimise ebaõnnestumisel, kuvada vormi vaates puuduste nimekiri.
+* Index vaates kuvada töötajate nimeri ja nuppud iga töötaja kohta  (kustutamiseks, muutmiseks ja vaatamiseks).
+* Andmed salvestamine oma valikul, file, mysql.
+ 
+Lisapunktid:
+Kasuta https://datatables.net/ index vaates nimekirja kuvamisel.
+Kasuta bootstrap cssi kujuduses.
