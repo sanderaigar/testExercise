@@ -56,7 +56,7 @@
                         <tr>
                             <td>{{$employee->nimi}}</td>
                             <td>{{$employee->isikukood}}</td>
-                            <td>{{$employee->sunnipaev}}</td>
+                            <td>{{date_format(date_create($employee->sunnipaev), 'm/d/Y')}}</td>
                             <td>
                                 <a href="{{route('employees.show', $employee->id)}}" class="btn btn-success">Vaata</a>
                                 <a href="{{route('employees.edit', $employee->id)}}" class="btn btn-info">Muuda</a>
